@@ -37,7 +37,7 @@ Infrastructure:
 ### Prerequisites
 - Docker installed
 - Docker Compose installed
-- OpenAI API Key
+- Gemini API Key
 
 ### Steps
 
