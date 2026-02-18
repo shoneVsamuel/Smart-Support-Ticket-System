@@ -22,7 +22,7 @@ Frontend:
 - React (Functional Components + Hooks)
 
 LLM:
-- OpenAI GPT model (via API)
+- Gemini 2.5-Flash model (via API)
 
 Infrastructure:
 - Docker
@@ -100,7 +100,7 @@ Infrastructure:
 # 🧠 LLM Used and Why
 
 ### LLM Used:
-OpenAI GPT model (via API)
+Gemini 2.5-Flash model (via API)
 
 ### Why This Model:
 
