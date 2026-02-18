@@ -1,0 +1,110 @@
+/* Global layout */
+.app-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f7fa;
+}
+
+/* Section headings */
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #222;
+}
+
+/* Card layout for major sections */
+.card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Form controls */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.1);
+}
+
+/* Buttons */
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Ticket list */
+.ticket-item {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #fafafa;
+}
+
+.ticket-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.ticket-item p {
+  margin: 0.25rem 0;
+  color: #555;
+}
+
+/* Dashboard stats (optional styling) */
+.stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.stats .stat-card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.stats .stat-card h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.stats .stat-card p {
+  margin: 0.5rem 0 0;
+  color: #555;
+}
