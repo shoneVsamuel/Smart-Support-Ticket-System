@@ -48,10 +48,10 @@ Infrastructure:
 2. Set environment variable for LLM API key:
 
    On Windows (CMD):
-   set OPENAI_API_KEY=your_api_key_here
+   set Gemini_API_KEY=your_api_key_here
 
    On Mac/Linux:
-   export OPENAI_API_KEY=your_api_key_here
+   export Gemini_API_KEY=your_api_key_here
 
 3. Build and start services:
    docker-compose up --build
